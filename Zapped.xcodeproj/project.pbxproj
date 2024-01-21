@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA5D278C2B5D86C100F25DEC /* Zapped Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CA5D278B2B5D86C100F25DEC /* Zapped Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CA5D27912B5D86C100F25DEC /* ZappedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5D27902B5D86C100F25DEC /* ZappedApp.swift */; };
+		CA5D27932B5D86C100F25DEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5D27922B5D86C100F25DEC /* ContentView.swift */; };
+		CA5D27952B5D86C300F25DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5D27942B5D86C300F25DEC /* Assets.xcassets */; };
+		CA5D27982B5D86C300F25DEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5D27972B5D86C300F25DEC /* Preview Assets.xcassets */; };
+		CA5D27A22B5D86C400F25DEC /* Zapped_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5D27A12B5D86C400F25DEC /* Zapped_Watch_AppTests.swift */; };
+		CA5D27AC2B5D86C400F25DEC /* Zapped_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5D27AB2B5D86C400F25DEC /* Zapped_Watch_AppUITests.swift */; };
+		CA5D27AE2B5D86C400F25DEC /* Zapped_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5D27AD2B5D86C400F25DEC /* Zapped_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA5D278D2B5D86C100F25DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA5D277F2B5D86C000F25DEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA5D278A2B5D86C100F25DEC;
+			remoteInfo = "Zapped Watch App";
+		};
+		CA5D279E2B5D86C400F25DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA5D277F2B5D86C000F25DEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA5D278A2B5D86C100F25DEC;
+			remoteInfo = "Zapped Watch App";
+		};
+		CA5D27A82B5D86C400F25DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA5D277F2B5D86C000F25DEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA5D278A2B5D86C100F25DEC;
+			remoteInfo = "Zapped Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA5D27B42B5D86C400F25DEC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CA5D278C2B5D86C100F25DEC /* Zapped Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CA5D27852B5D86C100F25DEC /* Zapped.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zapped.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5D278B2B5D86C100F25DEC /* Zapped Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zapped Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5D27902B5D86C100F25DEC /* ZappedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZappedApp.swift; sourceTree = "<group>"; };
+		CA5D27922B5D86C100F25DEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA5D27942B5D86C300F25DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA5D27972B5D86C300F25DEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA5D279D2B5D86C400F25DEC /* Zapped Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zapped Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5D27A12B5D86C400F25DEC /* Zapped_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zapped_Watch_AppTests.swift; sourceTree = "<group>"; };
+		CA5D27A72B5D86C400F25DEC /* Zapped Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zapped Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5D27AB2B5D86C400F25DEC /* Zapped_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zapped_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		CA5D27AD2B5D86C400F25DEC /* Zapped_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zapped_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA5D27882B5D86C100F25DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5D279A2B5D86C400F25DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5D27A42B5D86C400F25DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA5D277E2B5D86C000F25DEC = {
+			isa = PBXGroup;
+			children = (
+				CA5D278F2B5D86C100F25DEC /* Zapped Watch App */,
+				CA5D27A02B5D86C400F25DEC /* Zapped Watch AppTests */,
+				CA5D27AA2B5D86C400F25DEC /* Zapped Watch AppUITests */,
+				CA5D27862B5D86C100F25DEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA5D27862B5D86C100F25DEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA5D27852B5D86C100F25DEC /* Zapped.app */,
+				CA5D278B2B5D86C100F25DEC /* Zapped Watch App.app */,
+				CA5D279D2B5D86C400F25DEC /* Zapped Watch AppTests.xctest */,
+				CA5D27A72B5D86C400F25DEC /* Zapped Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA5D278F2B5D86C100F25DEC /* Zapped Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				CA5D27902B5D86C100F25DEC /* ZappedApp.swift */,
+				CA5D27922B5D86C100F25DEC /* ContentView.swift */,
+				CA5D27942B5D86C300F25DEC /* Assets.xcassets */,
+				CA5D27962B5D86C300F25DEC /* Preview Content */,
+			);
+			path = "Zapped Watch App";
+			sourceTree = "<group>";
+		};
+		CA5D27962B5D86C300F25DEC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA5D27972B5D86C300F25DEC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA5D27A02B5D86C400F25DEC /* Zapped Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA5D27A12B5D86C400F25DEC /* Zapped_Watch_AppTests.swift */,
+			);
+			path = "Zapped Watch AppTests";
+			sourceTree = "<group>";
+		};
+		CA5D27AA2B5D86C400F25DEC /* Zapped Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA5D27AB2B5D86C400F25DEC /* Zapped_Watch_AppUITests.swift */,
+				CA5D27AD2B5D86C400F25DEC /* Zapped_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Zapped Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA5D27842B5D86C100F25DEC /* Zapped */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5D27B52B5D86C400F25DEC /* Build configuration list for PBXNativeTarget "Zapped" */;
+			buildPhases = (
+				CA5D27832B5D86C100F25DEC /* Resources */,
+				CA5D27B42B5D86C400F25DEC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA5D278E2B5D86C100F25DEC /* PBXTargetDependency */,
+			);
+			name = Zapped;
+			productName = Zapped;
+			productReference = CA5D27852B5D86C100F25DEC /* Zapped.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		CA5D278A2B5D86C100F25DEC /* Zapped Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5D27B12B5D86C400F25DEC /* Build configuration list for PBXNativeTarget "Zapped Watch App" */;
+			buildPhases = (
+				CA5D27872B5D86C100F25DEC /* Sources */,
+				CA5D27882B5D86C100F25DEC /* Frameworks */,
+				CA5D27892B5D86C100F25DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zapped Watch App";
+			productName = "Zapped Watch App";
+			productReference = CA5D278B2B5D86C100F25DEC /* Zapped Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA5D279C2B5D86C400F25DEC /* Zapped Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5D27B82B5D86C400F25DEC /* Build configuration list for PBXNativeTarget "Zapped Watch AppTests" */;
+			buildPhases = (
+				CA5D27992B5D86C400F25DEC /* Sources */,
+				CA5D279A2B5D86C400F25DEC /* Frameworks */,
+				CA5D279B2B5D86C400F25DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA5D279F2B5D86C400F25DEC /* PBXTargetDependency */,
+			);
+			name = "Zapped Watch AppTests";
+			productName = "Zapped Watch AppTests";
+			productReference = CA5D279D2B5D86C400F25DEC /* Zapped Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA5D27A62B5D86C400F25DEC /* Zapped Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5D27BB2B5D86C400F25DEC /* Build configuration list for PBXNativeTarget "Zapped Watch AppUITests" */;
+			buildPhases = (
+				CA5D27A32B5D86C400F25DEC /* Sources */,
+				CA5D27A42B5D86C400F25DEC /* Frameworks */,
+				CA5D27A52B5D86C400F25DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA5D27A92B5D86C400F25DEC /* PBXTargetDependency */,
+			);
+			name = "Zapped Watch AppUITests";
+			productName = "Zapped Watch AppUITests";
+			productReference = CA5D27A72B5D86C400F25DEC /* Zapped Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA5D277F2B5D86C000F25DEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CA5D27842B5D86C100F25DEC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CA5D278A2B5D86C100F25DEC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CA5D279C2B5D86C400F25DEC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CA5D278A2B5D86C100F25DEC;
+					};
+					CA5D27A62B5D86C400F25DEC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CA5D278A2B5D86C100F25DEC;
+					};
+				};
+			};
+			buildConfigurationList = CA5D27822B5D86C000F25DEC /* Build configuration list for PBXProject "Zapped" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA5D277E2B5D86C000F25DEC;
+			productRefGroup = CA5D27862B5D86C100F25DEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA5D27842B5D86C100F25DEC /* Zapped */,
+				CA5D278A2B5D86C100F25DEC /* Zapped Watch App */,
+				CA5D279C2B5D86C400F25DEC /* Zapped Watch AppTests */,
+				CA5D27A62B5D86C400F25DEC /* Zapped Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA5D27832B5D86C100F25DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5D27892B5D86C100F25DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5D27982B5D86C300F25DEC /* Preview Assets.xcassets in Resources */,
+				CA5D27952B5D86C300F25DEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5D279B2B5D86C400F25DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5D27A52B5D86C400F25DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA5D27872B5D86C100F25DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5D27932B5D86C100F25DEC /* ContentView.swift in Sources */,
+				CA5D27912B5D86C100F25DEC /* ZappedApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5D27992B5D86C400F25DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5D27A22B5D86C400F25DEC /* Zapped_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5D27A32B5D86C400F25DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5D27AE2B5D86C400F25DEC /* Zapped_Watch_AppUITestsLaunchTests.swift in Sources */,
+				CA5D27AC2B5D86C400F25DEC /* Zapped_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA5D278E2B5D86C100F25DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA5D278A2B5D86C100F25DEC /* Zapped Watch App */;
+			targetProxy = CA5D278D2B5D86C100F25DEC /* PBXContainerItemProxy */;
+		};
+		CA5D279F2B5D86C400F25DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA5D278A2B5D86C100F25DEC /* Zapped Watch App */;
+			targetProxy = CA5D279E2B5D86C400F25DEC /* PBXContainerItemProxy */;
+		};
+		CA5D27A92B5D86C400F25DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA5D278A2B5D86C100F25DEC /* Zapped Watch App */;
+			targetProxy = CA5D27A82B5D86C400F25DEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA5D27AF2B5D86C400F25DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA5D27B02B5D86C400F25DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CA5D27B22B5D86C400F25DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zapped Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YPX5A868FE;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Zapped;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HoganWayTechnologies.Zapped.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		CA5D27B32B5D86C400F25DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zapped Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YPX5A868FE;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Zapped;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HoganWayTechnologies.Zapped.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		CA5D27B62B5D86C400F25DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YPX5A868FE;
+				INFOPLIST_KEY_CFBundleDisplayName = Zapped;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HoganWayTechnologies.Zapped;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CA5D27B72B5D86C400F25DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YPX5A868FE;
+				INFOPLIST_KEY_CFBundleDisplayName = Zapped;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HoganWayTechnologies.Zapped;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA5D27B92B5D86C400F25DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YPX5A868FE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HoganWayTechnologies.Zapped-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zapped Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zapped Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		CA5D27BA2B5D86C400F25DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YPX5A868FE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HoganWayTechnologies.Zapped-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zapped Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zapped Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		CA5D27BC2B5D86C400F25DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YPX5A868FE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HoganWayTechnologies.Zapped-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Zapped Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		CA5D27BD2B5D86C400F25DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YPX5A868FE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HoganWayTechnologies.Zapped-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Zapped Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA5D27822B5D86C000F25DEC /* Build configuration list for PBXProject "Zapped" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5D27AF2B5D86C400F25DEC /* Debug */,
+				CA5D27B02B5D86C400F25DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA5D27B12B5D86C400F25DEC /* Build configuration list for PBXNativeTarget "Zapped Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5D27B22B5D86C400F25DEC /* Debug */,
+				CA5D27B32B5D86C400F25DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA5D27B52B5D86C400F25DEC /* Build configuration list for PBXNativeTarget "Zapped" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5D27B62B5D86C400F25DEC /* Debug */,
+				CA5D27B72B5D86C400F25DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA5D27B82B5D86C400F25DEC /* Build configuration list for PBXNativeTarget "Zapped Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5D27B92B5D86C400F25DEC /* Debug */,
+				CA5D27BA2B5D86C400F25DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA5D27BB2B5D86C400F25DEC /* Build configuration list for PBXNativeTarget "Zapped Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5D27BC2B5D86C400F25DEC /* Debug */,
+				CA5D27BD2B5D86C400F25DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA5D277F2B5D86C000F25DEC /* Project object */;
+}
