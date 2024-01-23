@@ -6,7 +6,7 @@ struct NewGameView: View {
     @Environment(\.presentationMode) var presentationMode
     @State private var oppID: String = ""
     @State private var errorMessage: String? = nil
-    @State private var navigateToMenu: Bool = false  // Added state variable
+    @State private var navigateToMenu: Bool = false  
 
     func startNewGame() {
         guard let playerOneID = UserDefaults.standard.string(forKey: "userid") else {
@@ -16,7 +16,7 @@ struct NewGameView: View {
 
         // Construct the URL for checking the opponent ID in the users collection
         guard let url = URL(string: "https://zapped-526f3-default-rtdb.firebaseio.com/users/\(oppID).json") else {
-            // Replace "your-firebase-project-id" with your actual Firebase project ID
+           
             return
         }
 
@@ -65,7 +65,7 @@ struct NewGameView: View {
     }
 
     var body: some View {
-        NavigationView {  // Wrap the view in NavigationView
+        NavigationView {
             Group {
                 if UserDefaults.standard.string(forKey: "userid") != nil {
                     VStack {
@@ -81,7 +81,7 @@ struct NewGameView: View {
                     Text("Go to settings to enter userid")
                 }
             }
-            .navigationBarHidden(true)  // Hide the navigation bar for this view
+            .navigationBarHidden(true)
         }
     }
 }

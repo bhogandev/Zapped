@@ -14,7 +14,7 @@ struct SettingsUserView: View {
     func checkUserID() {
         // Construct the URL for checking the userID in the users collection
         guard let url = URL(string: "https://zapped-526f3-default-rtdb.firebaseio.com/users/\(userID).json") else {
-            // Replace "your-firebase-project-id" with your actual Firebase project ID
+           
             return
         }
 

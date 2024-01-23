@@ -10,7 +10,7 @@ import Foundation
 class GameFunctions {
     static func fetchCurrentGameState(forUserID userID: String, completion: @escaping (String?, String?, String?, String?, String?) -> Void) {
         guard let url = URL(string: "https://your-firebase-project-id.firebaseio.com/scores.json?orderBy=\"game_end\"&limitToLast=1&equalTo=\"\(userID)\"") else {
-            // Replace "your-firebase-project-id" with your actual Firebase project ID
+            
             completion(nil, nil, nil, nil, nil)
             return
         }
@@ -50,7 +50,7 @@ class GameFunctions {
 
     static func incrementPlayerScore(gameId: String, currentPlayerID: String, existingGameStartTimestamp: String, existingGameEndTimestamp: String, existingCreateTimestamp: String, existingPlayerOneID: String, existingPlayerTwoID: String, completion: @escaping (Int) -> Void) {
         guard let url = URL(string: "https://your-firebase-project-id.firebaseio.com/scores/\(gameId).json") else {
-            // Replace "your-firebase-project-id" with your actual Firebase project ID
+            
             completion(0)
             return
         }
@@ -97,7 +97,7 @@ class GameFunctions {
     
     static func startNewGame(playerOneID: String, playerTwoID: String, completion: @escaping (String?) -> Void) {
            guard let gamesURL = URL(string: "https://zapped-526f3-default-rtdb.firebaseio.com/games.json") else {
-               // Replace "your-firebase-project-id" with your actual Firebase project ID
+              
                completion(nil)
                return
            }
@@ -143,9 +143,9 @@ class GameFunctions {
                   let gameJson = try? JSONSerialization.jsonObject(with: data, options: []) as? [String: Any],
                   let newGameID = gameJson["name"] as? String {
 
-                   // Now, let's add the logic for creating a new row in the scores collection
+                 
                    guard let scoresURL = URL(string: "https://zapped-526f3-default-rtdb.firebaseio.com/scores.json") else {
-                       // Replace "your-firebase-project-id" with your actual Firebase project ID
+                      
                        completion(nil)
                        return
                    }
@@ -178,8 +178,7 @@ class GameFunctions {
 
                    URLSession.shared.dataTask(with: scoresRequest) { _, _, _ in
                        // Ignore the response for simplicity
-                       // You may choose to handle errors or additional logic here
-
+                
                        // Completion with the new game ID
                        completion(newGameID)
                    }.resume()
