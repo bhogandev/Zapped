@@ -7,20 +7,41 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MenuView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                List {
+                    RowView(title: "NewGame", btnText: "Start A New Game", nextView: NewGameView())
+                    RowView(title: "OngoingGames", btnText: "Ongoing Games", nextView: CurrentGamesView())
+                    RowView(title: "LeaderboardView", btnText: "Leaderboard", nextView: LeaderboardView())
+                    RowView(title: "Settings", btnText: "Settings", nextView: SettingsView())
+                }
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct RowView<TargetView: View>: View {
+    let title: String
+    let btnText: String
+    var nextView: TargetView
+    var body: some View {
+        
+        NavigationLink(destination: nextView) {
+            Text(btnText)
+                .frame(height: 50, alignment: .center)
+                .listRowBackground(
+                    Color.white
+                        .cornerRadius(12)
+                )
+        }
+    }
+}
+
+struct MenuView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MenuView()
     }
 }
